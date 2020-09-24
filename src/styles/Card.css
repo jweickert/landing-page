@@ -1,0 +1,66 @@
+.patients {
+    flex-flow: row wrap;
+    width: 80%;
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-light-gray);
+    border-radius: 25px;
+}
+
+.doctors {
+    flex-flow: row wrap;
+    width: 80%;
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--color-light-gray); */
+    border-radius: 25px;
+}
+
+.insurance {
+    flex-flow: row wrap;
+    width: 80%;
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-light-gray);
+    border-radius: 25px;
+}
+  
+.section > div {
+    padding: 30px;
+}
+
+.patients > div {
+    padding: 30px;
+}
+
+.doctors > div {
+    padding: 30px;
+}
+
+.insurance > div {
+    padding: 30px;
+}
+
+.small-div {
+    width: 20%;
+}
+  
+.small-div > img {
+    width: 100px;
+}
+  
+.big-div {
+    width: 80%;
+}
+
+.div-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+

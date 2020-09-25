@@ -11,11 +11,11 @@ function Card(props) {
           </div>
     
           <div className="big-div">
-            <span className="div-title">
+            <span className="card-title">
               {props.title}
             </span>
             <br />
-            <span>
+            <span className="card-desc">
               {props.description}
             </span>
           </div>

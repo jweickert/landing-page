@@ -10,6 +10,10 @@
 .header-title {
     font-size: 50px;
 }
+
+.header-title > img {
+    width: 200px;
+}
   
 .header-text {
     font-size: 20px;
